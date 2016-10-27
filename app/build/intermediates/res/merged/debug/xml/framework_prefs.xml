@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Forced SystemUI Reboot">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="quick_launch_show_devider"
+            android:summaryOff="Forced SystemUI Reboot"
+            android:summaryOn="Forced SystemUI Reboot" />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:title="Statusbar Hidden Buttons">
+        <PreferenceCategory android:title="Buttons">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="aryamod_keybutton_recent_left"
+                android:summaryOff="Disabled"
+                android:summaryOn="Triggers recent apps"
+                android:title="Hidden Left button on statusbar"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="aryamod_keybutton_home_center"
+                android:summaryOff="Disabled"
+                android:summaryOn="Triggers home button"
+                android:title="Hidden Center button on statusbar"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="aryamod_keybutton_lock_right"
+                android:summaryOff="Disabled"
+                android:summaryOn="Locks the screen"
+                android:title="Hidden Right button on statusbar"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Volume Button Control">
+        <PreferenceCategory android:title="Music Control">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="volume_warning_toggle"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Disable the High Volume Warning"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="volbtn_music_controls"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Music Control with volume buttons"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/volbtn_timeout_entries"
+                android:title="Time-out value"
+                android:summary="%s"
+                android:key="volbtn_timeout"
+                android:dependency="volbtn_music_controls"
+                android:entryValues="@array/volbtn_timeout_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/volbtn_action_entries"
+                android:title="Volume-up function"
+                android:summary="%s"
+                android:key="volbtn_vol_up"
+                android:dependency="volbtn_music_controls"
+                android:entryValues="@array/volbtn_action_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/volbtn_action_entries"
+                android:title="Volume-down function"
+                android:summary="%s"
+                android:key="volbtn_vol_down"
+                android:dependency="volbtn_music_controls"
+                android:entryValues="@array/volbtn_action_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Listview">
+        <PreferenceCategory android:title="Animation">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/listview_animation_entries"
+                android:title="Animation"
+                android:summary="%s"
+                android:key="listview_animation"
+                android:entryValues="@array/listview_animation_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/listview_interpolator_entries"
+                android:title="Interpolator"
+                android:summary="%s"
+                android:key="listview_interpolator"
+                android:dependency="volbtn_music_controls"
+                android:entryValues="@array/listview_interpolator_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Switch Buttons">
+        <PreferenceCategory android:title="Style">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/switch_button_entries"
+                android:title="Switch Style"
+                android:summary="%s"
+                android:key="switch_button_style"
+                android:entryValues="@array/switch_button_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>

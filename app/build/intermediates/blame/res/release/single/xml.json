@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\ui_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\ui_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\framework_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\framework_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\phone_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\phone_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\lockscreen_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\lockscreen_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\notification_panel_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\notification_panel_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\release\\xml\\statusbar_prefs.xml",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\statusbar_prefs.xml"
+    }
+]

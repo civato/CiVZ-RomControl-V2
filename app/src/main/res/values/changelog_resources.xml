@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Do not forget to include this in any locale specific folders for translation-->
+
+    <!--In the following array put your changelog items
+    Take as many lines as you need.
+    Add as many items as you want or delete some if those are too many
+    This order is how they will appear in the dialog
+    Make any order you want from top to bottom-->
+    <string-array name="changelog_items">
+        <item>N9005XXUGPOK2 Based</item>
+        <item>CivZ Kernel for ntfs and cifs</item>
+        <item>Screenmirror fix with the kernel</item>
+        <item>Toolbox</item>
+        <item>Dolby Atmos</item>
+        <item>Beats</item>
+        <item>Advanced rom control</item>
+        <item>Most of the SystemUI colors are controllable</item>
+        <item>Auto call record</item>
+        <item>SMS-MMS mods</item>
+        <item>Extra CSC features like symbol Keyboard</item>
+        <item>........</item>
+    </string-array>
+
+    <!--This will be the dialog title.
+    Put your own rom version and name.
+    Have fun-->
+    <string name="rom_version_for_changelog">CivZ_Samsung_TW POK2 series</string>
+
+
+</resources>

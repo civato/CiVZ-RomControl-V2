@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\google_ic.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\google_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_notipanel.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\ic_notipanel.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_lockscreen.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\ic_lockscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_general_framework.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\ic_general_framework.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_ui_mods.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\ic_ui_mods.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_phone_mods.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\ic_phone_mods.png"
+    },
+    {
+        "merged": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\potatoclock.png",
+        "source": "C:\\Users\\TomMichiels\\AndroidStudioProjects\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\potatoclock.png"
+    }
+]

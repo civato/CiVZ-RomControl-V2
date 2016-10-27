@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Forced SystemUI Reboot">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="quick_launch_show_devider"
+            android:summaryOff="Forced SystemUI Reboot"
+            android:summaryOn="Forced SystemUI Reboot" />
+    </PreferenceCategory>
+
+    <PreferenceScreen android:title="Unlock function">
+        <PreferenceCategory android:title="Lockscreen Unlock functions">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="lockscreen_quick_unlock_control"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Quick Unlock"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="lockscreen_scramble_pin_layout"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Pin Pad Scramble"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Next Alarm">
+        <PreferenceCategory android:title="Lockscreen Alarm">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="1"
+                android:key="next_alarm"
+                android:summaryOff="Enabled"
+                android:summaryOn="Disabled"
+                android:title="Next Alarm"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="next_alarm_color"
+                android:title="Color"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Battery Info">
+        <PreferenceCategory android:title="Lockscreen Battery Info">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="keyguard_charging_notif"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Charging dialog"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="keyguard_lowbattery_notif"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Low Battery dialog"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Lockscreen Layout">
+        <PreferenceCategory android:title="Lockscreen Colors">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="1"
+                android:entries="@array/lockscreen_font_style_entries"
+                android:title="Clock Font Style"
+                android:summary="%s"
+                android:key="lockscreen_clock_font_style"
+                android:entryValues="@array/lockscreen_font_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="lock_seconds"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Clock Seconds"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="kg_clock_second_color"
+                android:title="Second Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="kg_clock_color"
+                android:title="Clock Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="kg_clock_AMPM_color"
+                android:title="Clock AMPM Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="kg_date_color"
+                android:title="Date Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:key="keypad_button_color"
+                android:title="Keypad Background Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="keypad_digit_color"
+                android:title="Pinpad Digits Color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="keypad_letter_color"
+                android:title="Pinpad Letters Color"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>

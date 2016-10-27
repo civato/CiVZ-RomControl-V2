@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Forced SystemUI Reboot">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="quick_launch_show_devider"
+            android:summaryOff="Forced SystemUI Reboot"
+            android:summaryOn="Forced SystemUI Reboot" />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:title="Dialpad Color">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ff000000"
+            android:key="main_digit_color"
+            android:title="Dialpad Digits"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ff000000"
+            android:key="main_letter_color"
+            android:title="Dialpad Letters"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="In-call Dialpad Color">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ff000000"
+            android:key="incall_digit_color"
+            android:title="In-call Dialpad Digits"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ff000000"
+            android:key="incall_letter_color"
+            android:title="In-call Dialpad Letters"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Ringtone">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="db_inc_volume_disable"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Increasing Ringtone"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Call delay">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="0"
+            android:entries="@array/call_delay_entries"
+            android:entryValues="@array/call_delay_values"
+            android:key="db_call_delay"
+            android:title="End Call Delay"
+            android:summary="%s"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Call Record">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="pekaka_auto_call_record"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Auto call record"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="killprocess_call_record_in"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Incoming call record"
+            android:dependency="pekaka_auto_call_record"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="killprocess_call_record_out"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Outgoing call record"
+            android:dependency="pekaka_auto_call_record"/>
+    </PreferenceScreen>
+
+</PreferenceScreen>
